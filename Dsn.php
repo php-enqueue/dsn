@@ -66,7 +66,7 @@ class Dsn
         ?int $port,
         ?string $path,
         ?string $queryString,
-        array $query,
+        array $query
     ) {
         $this->scheme = $scheme;
         $this->schemeProtocol = $schemeProtocol;
